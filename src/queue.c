@@ -9,7 +9,7 @@ void enqueue(struct queue_t * q, struct pcb_t * proc){
         q->size++;
     } else {
         printf("Queue is full. Cannot enqueue.\n");
-		return NULL;
+		return;
     }
 }
 // Hàm dequeue để lấy một pcb_t ra khỏi hàng đợi
